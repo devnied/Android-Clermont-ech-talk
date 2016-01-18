@@ -1,0 +1,132 @@
+.slide {
+  padding: 55px 55px 0;
+}
+.slide ol li, .slide ul li{
+  text-indent: -1em;
+}
+li {
+  line-height: 42px;
+}
+.caption{
+  color:#B9B9B9;
+}
+#cover h2 {
+  margin: 30px 0 0;
+  color: #444;
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 0px 0px 7px #CCC;
+}
+#cover p {
+  margin:10px 0 0;
+  text-align:left;
+  color:#FFF;
+  font-style:italic;
+  font-size:19px;
+  position: absolute;
+  bottom: 11px;
+  margin-left: -20px;
+}
+#cover p a {
+  color:#FFF;
+}
+#secu pre{
+  font-size: 20px;
+}
+#contact span{
+  width: 86px;
+  display: inline-table;
+}
+#contact {
+  line-height: 41px;
+}
+.progress{
+  border-right-color: none;
+  border: 7px solid #4B86C2;
+}
+.shower{
+  counter-reset: test;
+}
+.slide:after{
+  display:none;
+}
+.slide-content:after {
+    display: block;
+    top: initial;
+    bottom: 4px;
+    position: absolute;
+    right: 43px;
+    padding-top: 15px;
+    width: 13px;
+    height: 65px;
+    color: #999;
+    counter-increment: test;
+    content: counter(test);
+    text-align: center;
+    font-size: 19px;
+    background: inherit;
+    background-color: transparent;
+}
+aside.gdbar img{
+  height: 100px;
+}
+aside.gdbar {
+    width: 240px;
+    position: absolute;
+    top: 125px;
+    border-radius: 10px 0 0 10px;
+    background-color: #e6e6e6;
+    background-size: 0% 100%;
+    line-height: 0;
+    padding:10px 10px 9px 10px;
+}
+
+aside.gdbar.right {
+    right: 0;
+    left: -moz-initial;
+    left: initial;
+}
+.thanks h2{
+  margin-top: 95px;
+  font-size: 71px;
+}
+
+img.right{
+  position: absolute;
+  width: 63%;
+  right: 0;
+  top: 144px;
+  margin-right: 34px;
+}
+img.rate{
+  width: 79%;
+  margin-left: 83px;
+}
+img.category{
+  position: absolute;
+  width: 54%;
+  right: 0;
+  top: 196px;
+  margin-right: 42px;
+}
+img.console{
+  width: 106%;
+  margin-top: 16px;
+  margin-left: -21px;
+}
+img.conclusion{
+  width: 34%;
+}
+img.payment{
+      width: 92%;
+      margin-left: 30px;
+}
+img.securite{
+  width: 88%;
+  margin-top: -11px;
+  margin-left: 58px;
+}
+img.licencing{
+  width: 36%;
+  top: 100px;
+}
